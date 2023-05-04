@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:background="@drawable/sound"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@drawable/matching"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="start"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/countMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_gravity="center"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" >
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:id="@+id/ibtn01"
+                android:background="@null"
+                android:src="@drawable/piano"/>
+
+            <VideoView
+                android:id="@+id/screenVideoView1"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center"
+                tools:ignore="OnClick"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:id="@+id/ibtn02"
+                android:background="@null"
+                android:src="@drawable/piano"/>
+
+            <VideoView
+                android:id="@+id/screenVideoView2"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center"
+                tools:ignore="OnClick"/>
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:id="@+id/ibtn03"
+                android:background="@null"
+                android:src="@drawable/piano"/>
+
+            <VideoView
+                android:id="@+id/screenVideoView3"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center"
+                tools:ignore="OnClick"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" >
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:id="@+id/ibtn04"
+                android:background="@null"
+                android:src="@drawable/piano"/>
+
+            <VideoView
+                android:id="@+id/screenVideoView4"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center"
+                tools:ignore="OnClick"/>
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:id="@+id/ibtn05"
+                android:background="@null"
+                android:src="@drawable/piano"/>
+
+            <VideoView
+                android:id="@+id/screenVideoView5"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center"
+                tools:ignore="OnClick"/>
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:id="@+id/ibtn06"
+                android:background="@null"
+                android:src="@drawable/piano"/>
+
+            <VideoView
+                android:id="@+id/screenVideoView6"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center"
+                tools:ignore="OnClick"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:id="@+id/ibtn07"
+                android:background="@null"
+                android:src="@drawable/piano"/>
+
+            <VideoView
+                android:id="@+id/screenVideoView7"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center"
+                tools:ignore="OnClick"/>
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:id="@+id/ibtn08"
+                android:background="@null"
+                android:src="@drawable/piano"/>
+
+            <VideoView
+                android:id="@+id/screenVideoView8"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center"
+                tools:ignore="OnClick"/>
+        </FrameLayout>
+
+
+        <ImageButton
+            android:id="@+id/btnReset"
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:layout_gravity="right"
+            android:background="@null"
+            android:scaleType="fitStart"
+            android:src="@drawable/reset"/>
+    </LinearLayout>
+</LinearLayout>
